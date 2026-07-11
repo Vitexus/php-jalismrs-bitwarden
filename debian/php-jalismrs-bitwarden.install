@@ -1,0 +1,8 @@
+src/BitwardenCommands.php usr/share/php/Jalismrs/Bitwarden/
+src/BitwardenServiceDelegate.php usr/share/php/Jalismrs/Bitwarden/
+src/BitwardenService.php usr/share/php/Jalismrs/Bitwarden/
+src/Model/BitwardenItem.php usr/share/php/Jalismrs/Bitwarden/Model/
+src/Model/BitwardenLogin.php usr/share/php/Jalismrs/Bitwarden/Model/
+src/Model/BitwardenStatus.php usr/share/php/Jalismrs/Bitwarden/Model/
+src/Model/BitwardenUri.php usr/share/php/Jalismrs/Bitwarden/Model/
+composer.json usr/share/php/Jalismrs/Bitwarden/

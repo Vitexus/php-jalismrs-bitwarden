@@ -1,0 +1,13 @@
+cdc029c7794d606637f91416213a1f3d  usr/share/doc/php-jalismrs-bitwarden/README.Debian
+79b726a443d01a94bd76b0b9297c9a35  usr/share/doc/php-jalismrs-bitwarden/changelog.gz
+859d9bd3717e02736a2e920e9771f811  usr/share/doc/php-jalismrs-bitwarden/copyright
+7d69bc7bb666aabf8ec07014fc20f72b  usr/share/php/Jalismrs/Bitwarden/BitwardenCommands.php
+58d4f214f2d268411bfa0b5ddf3ee1ae  usr/share/php/Jalismrs/Bitwarden/BitwardenService.php
+db6817c04d95b2b21ebba56b30a1727b  usr/share/php/Jalismrs/Bitwarden/BitwardenServiceDelegate.php
+af0bd9f1513e2b6ea3e98e492337acf0  usr/share/php/Jalismrs/Bitwarden/Model/BitwardenItem.php
+768b8fbcc1a8e7d2f47d181a521a6cc3  usr/share/php/Jalismrs/Bitwarden/Model/BitwardenLogin.php
+9dd5f08fb25dc31db271ff885cc234d6  usr/share/php/Jalismrs/Bitwarden/Model/BitwardenStatus.php
+285820760a1fe49322a25c3f748d3d89  usr/share/php/Jalismrs/Bitwarden/Model/BitwardenUri.php
+bd8512089034ab6dabc56574c96f1b5d  usr/share/php/Jalismrs/Bitwarden/autoload.php
+29024da4995c494ac0b57725567c6afa  usr/share/php/Jalismrs/Bitwarden/composer.json
+34c8d20b431e94fd667e8b42508b702e  usr/share/pkg-php-tools/autoloaders/php-jalismrs-bitwarden

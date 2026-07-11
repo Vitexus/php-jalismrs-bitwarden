@@ -1,0 +1,14 @@
+php-jalismrs-bitwarden for Debian
+
+This package installs the jalismrs/bitwarden-php library into
+/usr/share/php/Jalismrs/Bitwarden/.
+
+The Bitwarden CLI tool (bw) must be installed on the system
+for this library to function. See: https://bitwarden.com/help/article/cli/
+
+Usage:
+  You must implement the BitwardenServiceDelegate interface
+  to provide credentials and session management, then
+  instantiate BitwardenService with your delegate.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 02 Mar 2026 11:41:56 +0100

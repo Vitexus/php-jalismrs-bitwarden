@@ -1,0 +1,6 @@
+php-jalismrs-bitwarden (1.1.0) unstable; urgency=low
+
+  * Initial Debian packaging of jalismrs/bitwarden-php 1.1.0
+  * PHP library for accessing Bitwarden vault via CLI
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Mon, 02 Mar 2026 11:41:56 +0100

@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@ --with phpcomposer
+
+override_dh_auto_test:
+
+override_dh_install:
+	dh_install
+	phpab --output debian/php-jalismrs-bitwarden/usr/share/php/Jalismrs/Bitwarden/autoload.php \
+		--basedir debian/php-jalismrs-bitwarden/usr/share/php/Jalismrs/Bitwarden \
+		--tolerant \
+		debian/php-jalismrs-bitwarden/usr/share/php/Jalismrs/Bitwarden
+	install -m0755 -d debian/php-jalismrs-bitwarden/usr/share/pkg-php-tools/autoloaders
+	echo 'jalismrs bitwarden-php Jalismrs/Bitwarden/autoload.php' > debian/php-jalismrs-bitwarden/usr/share/pkg-php-tools/autoloaders/php-jalismrs-bitwarden

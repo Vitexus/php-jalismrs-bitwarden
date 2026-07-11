@@ -1,0 +1,6 @@
+phpcomposer:name=jalismrs/bitwarden-php
+phpcomposer:description=Services to access bitwarden data
+phpcomposer:Debian-require=php-common, php-common, php-symfony-process (>= 6.0), php-symfony-process (<< 7~~)
+phpcomposer:Debian-require-dev=phpunit (>= 9.5), phpunit (<< 10~~)
+misc:Depends=
+misc:Pre-Depends=

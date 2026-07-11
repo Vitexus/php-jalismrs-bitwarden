@@ -1,0 +1,27 @@
+Source: php-jalismrs-bitwarden
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools (>= 1.7~),
+ phpab,
+Standards-Version: 4.7.0
+Homepage: https://github.com/jalismrs/bitwarden-service.php
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/php-jalismrs-bitwarden.git
+Vcs-Browser: https://github.com/Vitexus/php-jalismrs-bitwarden
+
+Package: php-jalismrs-bitwarden
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-require},
+ php-cli,
+Recommends:
+ bw-cli
+Description: PHP services to access Bitwarden data via CLI
+ This library provides PHP classes for interacting with the
+ Bitwarden CLI (bw) to manage vault items programmatically.
+ It supports authentication, session management, and searching
+ vault items through a delegate-based service architecture.

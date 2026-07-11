@@ -1,0 +1,15 @@
+Package: php-jalismrs-bitwarden
+Version: 1.1.0
+Architecture: all
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Installed-Size: 34
+Depends: php-common, php-symfony-process (>= 6.0), php-symfony-process (<< 7~~), php-cli
+Recommends: bw-cli
+Section: php
+Priority: optional
+Homepage: https://github.com/jalismrs/bitwarden-service.php
+Description: PHP services to access Bitwarden data via CLI
+ This library provides PHP classes for interacting with the
+ Bitwarden CLI (bw) to manage vault items programmatically.
+ It supports authentication, session management, and searching
+ vault items through a delegate-based service architecture.

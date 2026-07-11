@@ -1,0 +1,3 @@
+Test-Command: php -r "require_once '/usr/share/php/Jalismrs/Bitwarden/autoload.php'; new Jalismrs\Bitwarden\BitwardenCommands(); new Jalismrs\Bitwarden\Model\BitwardenUri(); echo 'autoload OK';"
+Depends: php-jalismrs-bitwarden, php-cli
+Restrictions: superficial

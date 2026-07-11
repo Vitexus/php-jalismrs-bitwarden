@@ -1,0 +1,8 @@
+./src/BitwardenCommands.php
+./src/BitwardenServiceDelegate.php
+./src/BitwardenService.php
+./src/Model/BitwardenItem.php
+./src/Model/BitwardenLogin.php
+./src/Model/BitwardenStatus.php
+./src/Model/BitwardenUri.php
+./composer.json
