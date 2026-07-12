@@ -1,7 +1,10 @@
 #!groovy
 
-// debian:forky disabled: Forky is still unstable/research-only.
-String[] distributions = ['debian:bookworm', 'debian:trixie', 'ubuntu:jammy', 'ubuntu:noble']
+// debian:forky disabled: ships Symfony 7.x, conflicts with php-symfony-process (< 7~~).
+// debian:bookworm, ubuntu:jammy disabled: ship Symfony 5.4.x, too old for
+// php-symfony-process (>= 6.0). Neither repo.multiflexi.eu nor
+// repo.vitexsoftware.com backports a compatible version.
+String[] distributions = ['debian:trixie', 'ubuntu:noble']
 
 String vendor = 'vitexsoftware'
 String imagePrefix = 'multiflexi-'
